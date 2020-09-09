@@ -1,8 +1,14 @@
 import os
 
-ringo_login = "login.py"
+# Khai báo lệnh
+git_add = "git add"
+git_commit = "git commit -m"
+git_status = "git status"
 print("1. Chi Nhánh")
-player = input("Lựa chọn: ")
+print("2.Thêm file")
+player = input("Lựa chọn: :")
+
+
 if player == "1":
     print("1.Chuyển chi nhánh\n2.Tạo chi nhánh\n3.Xóa chi nhánh(Chưa tạo)")
     player = input("Nhập(Mặc định =1):")
@@ -16,12 +22,14 @@ if player == "1":
     elif player == "3":
         player == input("Tên chi nhánh muốn xóa: ")
         os.system("git branch -d %s"%player)
-'''
-print("1. ringo-login.py")
-player = input("Nhập: ")
-
-if player == "1":
-    player_commit = input("Nhập vào Commit của %s: "%ringo_login)
-    os.system("git add %s && git commit -m \"%s\""%( ringo_login , player_commit))
-
-'''
+elif player == "2":
+    os.system(git_status)
+    print("1. Thêm\n2.Xóa\3.Khôi phục")
+    player = input("Nhập: ")
+    if player == "1" :
+        player = input("File muốn thêm vào: ")
+        os.system("%s %s"%(git_add,player))
+        player = input("Bạn có muốn nhập Commit không?(y/n)")
+        if player == "y" or player == "Y" or "1":
+            player = input("Commit: ")
+            os.system("%s \"%s\""%(git_commit,player))
