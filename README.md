@@ -1,18 +1,24 @@
-# Git-Cmt
-Bash được tạo ra nhằm mục đích khiến người dùng git trở nên thuận tiện hơn,không còn như lúc trước,lúc nào cũng phải nhớ những câu lệnh dài dòng và bất tiện.
+- Cập nhật và thêm vào Github
+- Chức năng:
+    1. Termux-Desktop:
+        - Tải xuống tất cả các gói cần thiết(openbox, obconf xorg-xsetroot,... )
+        - Tự cập nhật cấu hình(lưu ý, đây là thử nghiệm, hãy sao lưu lại trước khi thực hiện những thao tác) 
+    2. VNC Server:
+        - Tải xuống tigervnc. 
+        - Khởi động vnc.
+        - Dừng lại vnc.
 
-Có Git-Cmt,mọi chuyện sẽ trở nên dễ dàng hơn!!!
+English
+- Updated and added to Github
+- Function:
+    1. Termux-Desktop:
+        - Download all necessary packages (openbox, obconf xorg-xsetroot, ...)
+        - Self-update configuration (note, this is an experiment, please backup before performing any operations)
+    2. VNC Server:
+        - Download tigervnc.
+        - Start vnc.
+        - Stop vnc.
 
-#Chức Năng:
 
-1.Chi Nhánh:
 
-- Chuyển chi nhánh.
-- Tạo chi nhánh.
-- Xóa chi nhánh.
-
-Thông báo:
-
-Đây là một đoạn bash mình tạo ra cho người mới,và mình cũng là người mới,cho nên đối với Git vẫn hiểu biết rất nông cạn.
-
-Nếu như bạn nào hiểu biết rộng rãi có thể trợ giúp mình hoàn thiện nó...
+                                                            
