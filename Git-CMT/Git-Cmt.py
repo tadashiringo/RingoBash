@@ -10,6 +10,9 @@ if player == "1":
         os.system("git branch")
         player = input("Nhập tên chi nhánh: ")
         os.system("git checkout %s"%player)
+    elif player == "2":
+        player = input("Nhập tên chi nhánh muốn tạo ra: ")
+        os.system("git branch %s")
 '''
 print("1. ringo-login.py")
 player = input("Nhập: ")
