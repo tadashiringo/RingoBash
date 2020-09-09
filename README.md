@@ -3,6 +3,11 @@ Bash được tạo ra nhằm mục đích khiến người dùng git trở nên
 
 Có Git-Cmt,mọi chuyện sẽ trở nên dễ dàng hơn!!!
 
+##Chức Năng:
+1.Chi Nhánh:
+- Chuyển chi nhánh.
+- Tạo chi nhánh.
+- Xóa chi nhánh.
 
 Thông báo:
 
