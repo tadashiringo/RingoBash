@@ -1,8 +1,4 @@
 import os
-print("/////\\\\\\\\")
-print("||||||||||")
-print("\\\\\\\\/////")
-print(" ")
 admin_user = "Tadashi Ringo"
 admin_pass = "tadashiringo123"
 print("-------")
