@@ -11,7 +11,6 @@ while True:
         os.system("echo Đăng nhập thành công")
         break
     else:
-        os.system("echo Đăng nhập thất bại")
         os.system("echo tên hoặc mật khẩu không đúng,vui lòng nhập lại")
         player_user = input("Nhập tên  ngừi dùng: ")
         player_pass = input("Nhập mật khẩu người dùng: ")
