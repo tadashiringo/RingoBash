@@ -1,9 +1,14 @@
 import os
 
 # Khai báo lệnh
+git_rm = "git rm"
 git_add = "git add"
 git_commit = "git commit -m"
 git_status = "git status"
+git_restore = "git restore"
+
+
+
 print("1. Chi Nhánh")
 print("2.Thêm file")
 player = input("Lựa chọn: :")
@@ -33,3 +38,9 @@ elif player == "2":
         if player == "y" or player == "Y" or "1":
             player = input("Commit: ")
             os.system("%s \"%s\""%(git_commit,player))
+    elif player == "2" :
+        player = input("File muốn xóa: ")
+        os.system("%s %s"%(git_rm,player))
+    elif player == "3":
+        player = input("File muốn khôi phục: ")
+        os.system("%s %s"%(git_restore,player))
