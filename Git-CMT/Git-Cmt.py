@@ -4,9 +4,9 @@ ringo_login = "login.py"
 print("1. Chi Nhánh")
 player = input("Lựa chọn: ")
 if player == "1":
-    print("1.Chọn chi nhánh\n2.Tạo chi nhánh\n3.Xóa chi nhánh(Chưa tạo)")
+    print("1.Chuyển chi nhánh\n2.Tạo chi nhánh\n3.Xóa chi nhánh(Chưa tạo)")
     player = input("Nhập(Mặc định =1):")
-    if player == "1":
+    if player == "1" or player =="":
         os.system("git branch")
         player = input("Nhập tên chi nhánh: ")
         os.system("git checkout %s"%player)
